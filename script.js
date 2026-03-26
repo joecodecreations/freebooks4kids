@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p class="book-author">By ${book.author}</p>
                     <div class="card-actions">
                         <button class="watch-btn">▶ Watch & Read</button>
-                        <a href="${book.amazonUrl}" class="card-amazon-btn" target="_blank" rel="noopener noreferrer">🛒 Buy on Amazon</a>
+                        ${book.amazonUrl ? `<a href="${book.amazonUrl}" class="card-amazon-btn" target="_blank" rel="noopener noreferrer">🛒 Buy on Amazon</a>` : ''}
                     </div>
                 </div>
             `;
@@ -87,8 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const separator = embedUrl.includes('?') ? '&' : '?';
         youtubeIframe.src = `${embedUrl}${separator}autoplay=1`;
         
-        // Set Amazon Link
-        amazonBtn.href = book.amazonUrl;
+        // Handle Amazon Link Visibility
+        if (book.amazonUrl) {
+            amazonBtn.href = book.amazonUrl;
+            amazonBtn.style.display = 'inline-block';
+        } else {
+            amazonBtn.href = '#';
+            amazonBtn.style.display = 'none';
+        }
 
         // Show Modal
         videoModal.classList.add('active');
