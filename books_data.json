@@ -1,5 +1,13 @@
 [
   {
+    "id": "my_brain_is_a_race_car",
+    "title": "My Brain Is a Race Car",
+    "description": "Meet Marcus, a boy with a brain that zooms like a race car! Discover how his unique mind helps solve a big problem at school, turning his challenges into superpowers.",
+    "author": "Joey Sanchez",
+    "coverImage": "assets/covers/my_brain_is_a_race_car_cover.png",
+    "youtubeUrl": "https://youtu.be/Z8oZ0m10J08"
+  },
+  {
     "id": "the_big_feelings_forest",
     "title": "The Big Feelings Forest",
     "description": "A story about a little girl named Mia who learns to navigate her big feelings in a magical forest.",
