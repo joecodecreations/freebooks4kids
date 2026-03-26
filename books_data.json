@@ -1,11 +1,11 @@
 [
   {
-    "id": "amara_s_science_journey",
-    "title": "Amara's Science Journey",
-    "description": "Join Amara, a curious young girl from a challenging neighborhood, as she discovers her passion for science. Encouraged by a dedicated teacher, Amara embarks on an inspiring journey that leads her to groundbreaking discoveries.",
+    "id": "the_big_feelings_forest",
+    "title": "The Big Feelings Forest",
+    "description": "A story about a little girl named Mia who learns to navigate her big feelings in a magical forest.",
     "author": "Joey Sanchez",
-    "coverImage": "assets/covers/amara_s_science_journey_cover.png",
-    "youtubeUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-    "amazonUrl": "https://www.amazon.com/dp/B08N5M9P2P"
+    "coverImage": null,
+    "youtubeUrl": "https://youtu.be/QDTI6x05nW8",
+    "amazonUrl": "https://a.co/d/0gYEYjyh"
   }
 ]
