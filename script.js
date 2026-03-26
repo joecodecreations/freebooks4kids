@@ -72,6 +72,15 @@ document.addEventListener('DOMContentLoaded', () => {
         let embedUrl = book.youtubeUrl;
         if (embedUrl.includes('watch?v=')) {
             embedUrl = embedUrl.replace('watch?v=', 'embed/');
+            // Remove any other query params like &t= or &list=
+            if (embedUrl.includes('&')) {
+                embedUrl = embedUrl.split('&')[0];
+            }
+        } else if (embedUrl.includes('youtu.be/')) {
+            embedUrl = embedUrl.replace('youtu.be/', 'www.youtube.com/embed/');
+            if (embedUrl.includes('?')) {
+                embedUrl = embedUrl.split('?')[0];
+            }
         }
         
         // Add autoplay
