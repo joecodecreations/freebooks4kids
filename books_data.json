@@ -1,5 +1,13 @@
 [
   {
+    "id": "milo_s_tide_pool",
+    "title": "Milo's Tide Pool",
+    "description": "Join Milo, a shy child, as he discovers a hidden tide pool and befriends the tiny creatures living inside. Each new friend teaches Milo important lessons about bravery, uniqueness, and finding where you belong.",
+    "author": "Joey Sanchez",
+    "coverImage": "assets/covers/milo_s_tide_pool_cover.png",
+    "youtubeUrl": "https://youtu.be/cWjOKYkVJ8M"
+  },
+  {
     "id": "my_brain_is_a_race_car",
     "title": "My Brain Is a Race Car",
     "description": "Meet Marcus, a boy with a brain that zooms like a race car! Discover how his unique mind helps solve a big problem at school, turning his challenges into superpowers.",
