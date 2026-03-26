@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeBooks4Kids - Watch & Read!</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="logo">FreeBooks<span>4</span>Kids</h1>
+            <p class="tagline">Explore our magical collection of interactive storybooks!</p>
+        </div>
+        <div class="clouds"></div>
+    </header>
+
+    <!-- Books Grid Section -->
+    <main class="container">
+        <section class="section-title">
+            <h2>Our Featured Books</h2>
+            <p>Click on any book below to watch the video and order a copy!</p>
+        </section>
+
+        <div class="books-grid" id="booksGrid">
+            <!-- Book cards will be injected here via JavaScript -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 FreeBooks4Kids. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Video Modal Overlay -->
+    <div class="modal" id="videoModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="video-container">
+                <iframe id="youtubeIframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="cta-container">
+                <a href="#" id="amazonBtn" target="_blank" rel="noopener noreferrer" class="amazon-cta">
+                    🛒 Buy on Amazon
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script Application -->
+    <script src="script.js"></script>
+</body>
+</html>
